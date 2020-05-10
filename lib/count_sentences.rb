@@ -2,8 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?(string)
-    s
+  def sentence?
+    self.end_with?(".")
     
   end
 
